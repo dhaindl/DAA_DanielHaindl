@@ -1,0 +1,7 @@
+c This is a comment line. I start with a c and there may be zero or more of me. Comment lines
+c can be written at any place within the input file
+c the
+p cnf 3 3
+1 2 -3 0
+-2 2 3 0
+1 2 3 0
