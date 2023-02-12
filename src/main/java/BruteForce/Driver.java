@@ -17,7 +17,7 @@ public class Driver {
     public static void main(String[] args){
         Driver driver = new Driver();
         File inFile = new File("u15.cnf");
-        File inFile2 = new File("s20.cnf");
+        File inFile2 = new File("src/main/java/BruteForce/s15.cnf");
         driver.getData(inFile);
         System.out.println(driver.allClauses);
         driver.solvedList = driver.findSatisfy(driver.allClauses);
